@@ -126,12 +126,12 @@ jobs:
       matrix:
         platform:
           - target: "x86_64-unknown-linux-musl"
-            cargo-flags: "--no-default-features --features stat_client/native"
-            client-flags: "--no-default-features --features native"
+            cargo-flags: ""
+            client-flags: ""
             server-flags: ""
           - target: "aarch64-unknown-linux-musl"
-            cargo-flags: "--no-default-features --features stat_client/native"
-            client-flags: "--no-default-features --features native"
+            cargo-flags: ""
+            client-flags: ""
             server-flags: ""
 
     container:
